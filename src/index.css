@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rg-cluster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background: rgba(15, 118, 110, 0.9);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.3);
+}
+
+.rg-point {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background: #2563eb;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.35);
+}
+
+.leaflet-container {
+  font-family: inherit;
+}
